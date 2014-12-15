@@ -10,6 +10,7 @@ body{
 }
 
 strong { font-weight: 700; }
+a {text-decoration: none;}
 a:hover { text-decoration: none; }
 
 ::-moz-selection { background: #0f2128; color: #fff; text-shadow: none; }
@@ -48,7 +49,6 @@ a:hover { text-decoration: none; }
 .logo a:hover { color: #00f1de; }
 
 .call-us {
-    float:right;
     display:-webkit-flex;
     -webkit-flex-flow:row;
     -wekit-align-self:flex-end;
@@ -90,7 +90,7 @@ a:hover { text-decoration: none; }
     -webkit-flex-wrap:wrap;
     -webkit-align-items: center;
     -webkit-justify-content: center;
-    width: 100%;
+    width: auto;
     background:url(img/bg.jpg) no-repeat center;
     background-size: 100% 100%;
 }
@@ -150,10 +150,25 @@ a:hover { text-decoration: none; }
 .cont2{
     display: -webkit-flex;
     -webkit-flex-flow:row;
-    -webkit-justify-content:center;
-    -webkit-align-items:center;
     -webkit-flex-wrap: wrap;
+    -webkit-align-items:center;
+    -webkit-align-content:center;
+    -webkit-justify-content:center;
     height:auto;
+    border:1px solid green;
+}
+.cont2_1{
+    display:-webkit-flex;
+    -webkit-flex-flow:row;
+    -webkit-flex-wrap: wrap;
+    margin-right: auto;
+}
+
+.cont2_2{
+    display:-webkit-flex;
+    -webkit-flex-flow:row;
+    -webkit-flex-wrap: wrap;
+    -webkit-align-self:flex-end;
 }
 
 .cont3{
