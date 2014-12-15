@@ -62,7 +62,7 @@ a:hover { text-decoration: none; }
     margin-top: 14px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-right: 100px;
+    padding-right: 80px;
 }
 
 .call-us p span { color: #888; }
@@ -155,17 +155,19 @@ a:hover { text-decoration: none; }
     -webkit-align-content:center;
     -webkit-justify-content:center;
     height:auto;
-    border:1px solid green;
+    min-width: 70%;
 }
 .cont2_1{
     display:-webkit-flex;
     -webkit-flex-flow:row;
+    -webkit-flex-wrap: wrap;
     margin-right: auto;
 }
 
 .cont2_2{
     display:-webkit-flex;
     -webkit-flex-flow:row;
+    -webkit-flex-wrap: wrap;
     -webkit-align-self:flex-end;
 }
 
