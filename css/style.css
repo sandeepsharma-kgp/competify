@@ -156,19 +156,24 @@ a:hover { text-decoration: none; }
     -webkit-justify-content:center;
     height:auto;
     min-width: 70%;
+    border:1px solid red;
 }
 .cont2_1{
     display:-webkit-flex;
     -webkit-flex-flow:row;
     -webkit-flex-wrap: wrap;
+    max-width: 90%;
     margin-right: auto;
+    border:1px solid green;
 }
 
 .cont2_2{
     display:-webkit-flex;
     -webkit-flex-flow:row;
     -webkit-flex-wrap: wrap;
+    max-width: 90%;
     -webkit-align-self:flex-end;
+    border:1px solid green;
 }
 
 .cont3{
