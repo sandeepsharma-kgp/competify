@@ -197,7 +197,7 @@ a:hover { text-decoration: none; }
 }
 
 .container2{
-    height:400px;
+    height:130px;
     width: 100%;
     background: url(img/footer.jpg) no-repeat;
     background-size: 100% 100%;
@@ -206,9 +206,76 @@ a:hover { text-decoration: none; }
     -webkit-flex-wrap:wrap;
     -webkit-justify-content:center;
     -webkit-align-items:center;
-    border:1px solid red;
 }
 
+.container3{
+
+    display: -webkit-flex;
+    -webkit-flex-flox:row;
+    -webkit-flex-wrap:wrap;
+    -webkit-justify-content:center;
+    -webkit-align-items:center;
+}
+
+.container3 h1{
+    position: relative;
+    z-index: 1;
+    color:red;
+}
+
+
+.left{
+    position: relative;
+    bottom: 150px;
+    left:10px;
+    height: 40px;
+    width: 40px;
+    -webkit-align-self:flex-start;
+}
+.left a
+{
+    height: 40px;
+    width: 40px;
+    display: block;
+    background:url(img/leftarrowhr.png) no-repeat center;
+}
+.left a:hover
+{
+    background:url(img/left.png) no-repeat center;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
+    -ms-transition:0.5s;
+}
+
+.right{
+    position: relative;
+    bottom: 150px;
+    right:10px;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+}
+
+.right a
+{
+    height: 40px;
+    width: 40px;
+    display: block;
+    background:url(img/rightarrowhr.png) no-repeat center ;
+}
+
+.right a:hover
+{
+    background:url(img/right.png) no-repeat center ;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
+    -ms-transition:0.5s;
+}
+/*
 
 @-webkit-keyframes fadeInUp {
   0% {
@@ -370,4 +437,4 @@ a:hover { text-decoration: none; }
 .dropdown-button {
     margin-left: 5px;
     width: 45%;
-}
+}*/
