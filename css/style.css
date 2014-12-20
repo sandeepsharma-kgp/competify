@@ -1,3 +1,8 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
 body{
 	background: #f8f8f0;
 	text-align: left;
@@ -274,6 +279,28 @@ a:hover { text-decoration: none; }
     -moz-transition:0.5s;
     -o-transition:0.5s;
     -ms-transition:0.5s;
+}
+
+.container4{
+    height: 540px;
+    width:100%;
+    display: -webkit-flex;
+    -webkit-flex-flox:row;
+    -webkit-justify-content:center;
+    -webkit-aliign-content:center;
+    -webkit-align-items:center;  
+}
+
+.facebook{
+    height: 100%;
+    width:150%;
+    
+}
+
+.twit{
+    height: 100%;
+    width:100%;
+
 }
 /*
 
