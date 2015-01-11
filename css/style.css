@@ -307,7 +307,16 @@ footer{
     background: #333;
     color: #eee ;
     font-size: 11px;
-    padding: 20px;
+    padding-top: 5px;
+}
+
+footer .morelinks{
+    font-size: 15px;
+}
+
+footer .fbottom{
+    height:15px;
+    padding: 0px;
 }
 
 ul.unstyled{

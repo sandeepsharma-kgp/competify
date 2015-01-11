@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+
 <html lang="en">
 
     <head>
@@ -6,29 +7,26 @@
         <meta charset="utf-8">
         <title>Competify</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <meta name="author" content="">
-		<meta property="og:url" content="http://competify.in/"/>
-		<meta property="og:site_name" content="Competify"/>
-		<meta property="og:title" content="Competify"/>
-		<meta property="og:type" content="website"/>
-		<meta property="og:image" content="assets\img\fb.jpg"/>
-		<meta property="og:description" content="For all the competition lovers who love to take part in competitions with a positive spirit not only to win but to groom their skills and talents. Join us, follow us to find the best competitions around you."/>
-		<meta name="description" content="For all the competition lovers who love to take part in competitions with a positive spirit not only to win but to groom their skills and talents. Join us, follow us to find the best competitions around you.">
-		<meta name="keywords" content="akshat, aanchal, aanchal jain, aanchaljain, akshatjain, akshat jain, NSIT, startup, competition, dare2compete, studentcomptitions, dare to compete,  competify, competitions, CollegeSpace, compete, art, music, dance, photography, drama, dramatics, craft, painting, technical, workshops, events, coding, robotryst, gaming, virtual gaming, quizzes, case study, bplan, sports, table tenis, cricket, football, basketball, tt, literary, MUN, model united nation, debate, school, school competitions, fests, college fest, business competitions, Twitter, wordpress, blog, timepass, Netaji Subhas Institute of Technology, New Delhi, Delhi, topper, akshat nsit, akshat collegespace, akshat enactus, enactus">
+        <meta name="author" content="">
+    		<meta property="og:url" content="http://competify.in/"/>
+    		<meta property="og:site_name" content="Competify"/>
+    		<meta property="og:title" content="Competify"/>
+    		<meta property="og:type" content="website"/>
+    		<meta property="og:image" content="assets\img\fb.jpg"/>
+    		<meta property="og:description" content="For all the competition lovers who love to take part in competitions with a positive spirit not only to win but to groom their skills and talents. Join us, follow us to find the best competitions around you."/>
+    		<meta name="description" content="For all the competition lovers who love to take part in competitions with a positive spirit not only to win but to groom their skills and talents. Join us, follow us to find the best competitions around you.">
+    		<meta name="keywords" content="akshat, aanchal, aanchal jain, aanchaljain, akshatjain, akshat jain, NSIT, startup, competition, dare2compete, studentcomptitions, dare to compete,  competify, competitions, CollegeSpace, compete, art, music, dance, photography, drama, dramatics, craft, painting, technical, workshops, events, coding, robotryst, gaming, virtual gaming, quizzes, case study, bplan, sports, table tenis, cricket, football, basketball, tt, literary, MUN, model united nation, debate, school, school competitions, fests, college fest, business competitions, Twitter, wordpress, blog, timepass, Netaji Subhas Institute of Technology, New Delhi, Delhi, topper, akshat nsit, akshat collegespace, akshat enactus, enactus">
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'>
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <!-- JS -->
         <script type="text/javascript" src="js/slider.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+        <script src="js/bootstrap.min.js"></script>
   
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -133,13 +131,14 @@
     </div>
 
     <footer>
-      <div class="container upper">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-2">
+
+          <div class="col-md-4" style="border:1px solid red" >
             <h4>Competify</h4>
           </div>
-          <div class="col-sm-3">
+
+          <div class="col-md-4 morelinks" align="center" style="border:1px solid red">
             <p>More links</p>
             <ul class="unstyled">
               <li>About Us</li>
@@ -149,20 +148,65 @@
               <li>Contact Us</li>
             </ul>
           </div>
-          <div class="col-sm-3">
-            <h4>Recent Post</h4>
-          </div>
-          <div class="col-sm-2">
-            <h4>Quick Contact</h4>
-          </div>
-          <div class="col-sm-1"></div>
+
+          <div class="col-md-4" style="border:1px solid red">
+            <h4 align="center">Quick Contact</h4>
+            <form  role="form" class="container-fuid" action="index.php" method="POST">
+                <div class="row">
+                    <div class="col-xs-6"> 
+                      <input type="text" class="form-control" name="usr" placeholder="Enter Name">
+                    </div>
+
+                    <div class="col-xs-6">
+                      <input type="email" class="form-control" name="email" placeholder="Enter Email-ID">
+                    </div>
+                </div>
+                
+                <div class="row" style="margin-top:10px" >
+                  <div class="col-xs-12"> 
+                     <input type="text" class="form-control" name="sub" placeholder="Enter Subject">
+                  </div>
+                </div>
+
+                <div class="row" style="margin-top:10px">
+                  <div class="col-xs-12">
+                     <textarea class="form-control" rows="3" col="6" name="msg" placeholder="Message"></textarea>
+                  </div>
+                </div>
+
+                <div class="row" style="margin-top:10px">
+                  <div class="col-xs-3">
+                     <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </div>
+           </form>
+         
         </div>
       </div>
-      <div class="contaier col-sm-12" align="center">
-        <h6>Copyright &copy;Competify2014</h6>
+    </footer>
+
+    <footer class="fbottom">
+      <div class="contaier col-md-12" align="center" style="margin-top:10px;">
+        <h6 style="color:black;">Copyright &copy;Competify2014</h6>
       </div>
     </footer>
 
   </body>
 
 </html>
+<?php
+
+if($_POST){
+  $to="2012sunny2013@gmail.com";
+  $sub=$_POST['sub'];
+  $header='From: sandeepsharma.iit@gmail.com';
+  $msg=$_POST['msg'];
+
+
+  if(mail($to,$sub,$msg,$header)){
+    echo 'alert("Done")';
+  }else{
+    echo 'alert("Not Done")';
+  }
+}
+?>
